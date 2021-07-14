@@ -22,9 +22,9 @@ export default function Repositories(){
                     return(
                         <>
                     <S.ListItem>       
-                        <a href={link}  target="_blank">
+                        <S.linker href={link}  target="_blank">
                             {repository}
-                        </a>
+                        </S.linker>
                     </S.ListItem>
                     </>
                 )})

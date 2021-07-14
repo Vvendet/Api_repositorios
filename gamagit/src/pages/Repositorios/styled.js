@@ -7,6 +7,10 @@ export const Title = styled.h1`
 
 
 `
+export const linker = styled.a`
+    text-decoration: none;
+    text-decoration-color: #fff;
+`
 export const Container = styled.div`
     width: 100%;
     max-width: 991px;
