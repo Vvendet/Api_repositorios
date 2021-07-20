@@ -2,13 +2,25 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
 `
-
+export const HomeContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+`
+export const ErrorMsg = styled.p`
+    display: block;
+    font-size: 0.65rem;
+    color: red;
+    font-weight: 600; 
+    margin-top: 1rem;
+`
 export const Input = styled.input`
     border: 1px solid #ddd;
     height: 1.5rem;
