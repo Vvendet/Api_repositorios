@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import Routes from '../../routes';
 import * as S from './styled';
+import {Link } from 'react-router-dom';
+
 
 export default function Repositories(){
     const [repositories, setRepositories] = useState([])
@@ -26,11 +28,13 @@ export default function Repositories(){
                             {repository}
                         </S.linker>
                     </S.ListItem>
+                    
                     </>
                 )})
             }
-
+        <S.linkHome to="/">Voltar</S.linkHome>
         </S.Lista>
+        
         </S.Container>
         </>
     )
